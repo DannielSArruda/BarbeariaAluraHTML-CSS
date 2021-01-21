@@ -66,7 +66,7 @@ nav a:hover{
 }
 
 .produtos li:hover h2{
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .produtos li:active{
@@ -74,7 +74,7 @@ nav a:hover{
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -101,11 +101,11 @@ footer{
 }
 
 main{
-
+    
 }
 
 form{
-    margin: 40px 0;
+    margin: 40px 0 0 100px;
 }
 form label, form legend{
     display: block;
@@ -127,7 +127,7 @@ form label, form legend{
 }
 
 .enviar{
-    width: 40%;
+    width: 30%;
     padding: 15px 0;
     background: orange;
     color:white;
@@ -141,11 +141,15 @@ form label, form legend{
 
 .enviar:hover{
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-table{
-    margin: 20px 0 40px;
+#table{
+    margin: 20px 0 40px 100px;
+}
+
+#table p{
+    margin: 0 0 10px 12px;
 }
 
 thead{
