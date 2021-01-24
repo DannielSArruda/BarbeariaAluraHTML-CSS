@@ -38,7 +38,7 @@ nav a:hover{
 
 .selecione-agendamento{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 1em;
 }
@@ -271,8 +271,16 @@ th, td{
 
 @media screen and (max-width: 480px){
 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-        width: auto;
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{
+        width: 95%;
+    }
+
+    .principal p{
+        text-align: justify;
+    }
+
+    .utensilios{
+        margin: 0 10px 20px 0;
     }
 
     h1{
@@ -286,6 +294,26 @@ th, td{
 
     .lista-beneficios, .imagem-beneficios{
         width: 100%;
+    }
+
+    .produtos li{
+        width: 50%;
+        margin: 0 auto 10px;
+        display: block;
+        padding: 15px 20px;
+    }
+
+    .imagem-servicos{
+        width: 160px;
+    }
+
+    fieldset{
+        margin: 10px 0;
+    }
+
+    .enviar{
+        width: 36%;
+        font-size: 15px;
     }
 }
 
