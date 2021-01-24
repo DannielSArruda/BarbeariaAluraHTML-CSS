@@ -271,7 +271,11 @@ th, td{
 
 @media screen and (max-width: 480px){
 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{
+    .caixa{
+        width: 100%;
+    }
+
+    .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{
         width: 95%;
     }
 
@@ -304,7 +308,15 @@ th, td{
     }
 
     .imagem-servicos{
-        width: 160px;
+        width: 150px;
+    }
+
+    form{
+        margin: 40px 0 0 80px;
+    }
+
+    #table{
+        margin: 20px 0 40px 70px;
     }
 
     fieldset{
@@ -312,8 +324,8 @@ th, td{
     }
 
     .enviar{
-        width: 36%;
-        font-size: 15px;
+        width: 40%;
+        font-size: 13px;
     }
 }
 
